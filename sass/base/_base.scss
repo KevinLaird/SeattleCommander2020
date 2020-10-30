@@ -1,0 +1,19 @@
+*,
+ *::after,
+ *::before { 
+     margin: 0;
+     padding: 0;
+     box-sizing: inherit;
+ }
+
+
+html{
+    color: black;
+}
+body {
+   box-sizing: border-box;
+   background-color: $color-accent-3;
+   position: relative;
+   min-height: 100%;
+}    
+

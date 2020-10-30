@@ -1,0 +1,32 @@
+.nav{
+    &--default{
+        background-color: $color-accent-2;
+    }
+}
+.navbar{
+    &-brand{
+        margin-left: .5rem;
+    }
+    &-nav{
+        margin-top: 1rem;
+        .nav-link{
+            padding: .5rem;
+            font-size: 20px;
+        }
+    }
+}
+
+.logo{
+    margin: 1rem;
+    @include respond(sm){
+        transform: scale(.8);
+    }
+    &-box{
+        display: flex;
+    }
+}
+
+.header{
+    position: fixed;
+}
+
