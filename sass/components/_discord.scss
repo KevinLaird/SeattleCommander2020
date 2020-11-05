@@ -1,9 +1,6 @@
 .discord{
     width: 70vw;
     height: 60vh;
-    @include respond(sm){
-        margin: 20px
-    }
     @include respond(lg){
         margin-bottom: 5rem;
         width: 82vw;

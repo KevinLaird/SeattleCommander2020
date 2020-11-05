@@ -1,32 +1,26 @@
 .nav{
-    &--default{
-        background-color: $color-accent-2;
-    }
-}
-.navbar{
-    &-brand{
-        margin-left: .5rem;
-    }
-    &-nav{
-        margin-top: 1rem;
-        .nav-link{
-            padding: .5rem;
-            font-size: 20px;
+    color: $color-default;
+    display: flex;
+    line-height: 1;
+    &-box{
+        margin: 1rem;
+        align-items: center;
+        & > *{
+            padding: 5px
         }
     }
-}
+    &__logo{
 
-.logo{
-    margin: 1rem;
-    @include respond(sm){
-        transform: scale(.8);
+        a{
+            line-height: .7;
+        }
     }
-    &-box{
-        display: flex;
+    &__header{
+        font-size: 1rem;
+        font-weight: 500;
     }
 }
 
 .header{
-    position: fixed;
-}
 
+}

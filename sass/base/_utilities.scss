@@ -30,6 +30,12 @@
     height: 100%;
 }
 
+.u-margin-media{
+    @include respond(sm){
+        margin: 20px
+    }
+}
+
 
 .u-grid-box-col-2{
     display: grid;

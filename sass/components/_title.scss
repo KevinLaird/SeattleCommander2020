@@ -11,6 +11,9 @@
             @include respond(lg){
                 margin: 2rem;
             }
+            @include respond(sm){
+                margin: 20px
+            }
         } 
     }
     &__main{
@@ -25,9 +28,6 @@
         }
         &__content{            
             width: fit-content;
-            @include respond(sm){
-                margin: 20px
-            }
             & > * {
                 padding: 1rem;
             }
@@ -74,7 +74,10 @@
         &-box{
             display: flex;
             justify-content: center;
-            margin: 2rem
+            margin: 1.4rem;
+            @include respond(lg){
+                margin: 2rem;
+            }
         }
     }
 }
